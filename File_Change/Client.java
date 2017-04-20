@@ -25,7 +25,7 @@ public class Client
     {
         try
         {
-            String host = "139.59.72.151";
+            String host = "localhost";
             int port = 25000;
             InetAddress address = InetAddress.getByName(host);
             socket = new Socket(address, port);
